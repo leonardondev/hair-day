@@ -1,14 +1,27 @@
 {
   "name": "hair-day",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Aplicação web de agendamento para corte de cabelo.",
+  "main": "main.js",
   "scripts": {
-    "server": "json-server --watch server.json --port 3333"
+    "server": "json-server --watch server.json --port 3333",
+    "dev": "webpack serve",
+    "build": "webpack"
   },
-  "keywords": ["babel", "webpack", "dayjs"],
+  "keywords": [
+    "babel",
+    "webpack",
+    "dayjs"
+  ],
+  "author": "Leonardo do Nascimento",
   "license": "MIT",
   "dependencies": {
     "json-server": "^1.0.0-beta.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "5.89.0",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "4.15.1"
   }
 }
