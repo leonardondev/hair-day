@@ -16,6 +16,7 @@
   "author": "Leonardo do Nascimento",
   "license": "MIT",
   "dependencies": {
+    "dayjs": "^1.11.12",
     "json-server": "^1.0.0-beta.1"
   },
   "devDependencies": {
