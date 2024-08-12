@@ -1,0 +1,14 @@
+{
+  "name": "hair-day",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch server.json --port 3333"
+  },
+  "keywords": ["babel", "webpack", "dayjs"],
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  }
+}
